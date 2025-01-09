@@ -33,7 +33,7 @@ resource "aws_db_instance" "rds" {
   allocated_storage          = 20
   storage_type               = "gp2"
   engine                     = "postgres"
-  engine_version             = "15.6"
+  engine_version             = "15.8"
   auto_minor_version_upgrade = true
   skip_final_snapshot        = true
   publicly_accessible        = true
